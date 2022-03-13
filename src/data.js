@@ -85,12 +85,13 @@ function chillHop() {
         audio: 'https://mp3.chillhop.com/serve.php/?mp3=24767',
     },
     {
-        name: 'Hope Island',
-        artist: 'Aviino',
-        cover: 'https://chillhop.com/wp-content/uploads/2021/09/a2d710149876c8e0c9fb097840b2438fbc21bd37-1024x1024.jpg',
+        name: 'Somber Sky',
+        artist: 'Oddfish',
+        cover: 'https://chillhop.com/wp-content/uploads/2022/01/c8729f09c7a1bf1143edf05091027770837d9e10-1024x1024.jpg',
         id: uuidv4(),
         active: false,
-        color: ['#DC9168', '#523F39']
+        color: ['#DC9168', '#3B446D'],
+        audio: 'https://mp3.chillhop.com/serve.php/?mp3=30295',
     }
     ];
 }
