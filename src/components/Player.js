@@ -131,7 +131,7 @@ const Player = ({ currentSong, isPlaying, setIsPlaying, audioRef, songInfo, setS
 
             <div className="play-control">
                 {/* skip-back btn */}
-                <FontAwesomeIcon className="btn-icon" onClick={() => skipTrackHandler('skip-back')} className="skip-back" size="2x" icon={faAngleLeft} />
+                <FontAwesomeIcon onClick={() => skipTrackHandler('skip-back')} className="skip-back" size="2x" icon={faAngleLeft} />
                 {/* play btn*/}
                 <FontAwesomeIcon onClick={playSongHandler} className="play" size="2x" icon={isPlaying ? faPause : faPlay} />
                 {/* skip-forward btn*/}
